@@ -14,11 +14,11 @@ h1 {
   background-color: #333;
 }
 
-li {
+#nav-list li {
   float: left;
 }
 
-li a {
+#nav-list li a {
   display: block;
   color: white;
   text-align: center;
@@ -26,7 +26,9 @@ li a {
   text-decoration: none;
 }
 
-
+li a:hover {
+    background-color: #111;
+}
 
 img {
   width: 50%;
@@ -35,4 +37,14 @@ img {
 #em-headshot {
   width: 40%;
   border-radius: 50%;
+}
+
+#skills li {
+  display: inline-block;
+  margin: 10px;
+  padding: 3%;
+  color: black;
+  background: white;
+  list-style: none;
+  cursor: default;
 }
