@@ -2,6 +2,15 @@
   background-color: #BAC9CF;
 }
 
+h1 {
+  color: #FECD51;
+}
+
 img {
   width: 50%;
+}
+
+#em-headshot {
+  width: 40%;
+  border-radius: 50%;
 }
