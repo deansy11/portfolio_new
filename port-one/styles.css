@@ -1,9 +1,9 @@
 .container {
-  background-color: #BAC9CF;
+  background-color: #E0DCE4;
 }
 
 h1 {
-  color: #FECD51;
+  color: #EFAA82;
 }
 
 #nav-list {
@@ -11,7 +11,7 @@ h1 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #3E5899;
 }
 
 #nav-list li {
@@ -34,6 +34,10 @@ img {
   width: 50%;
 }
 
+#em-cartoon {
+
+}
+
 #em-headshot {
   width: 40%;
   border-radius: 50%;
@@ -47,4 +51,34 @@ img {
   background: white;
   list-style: none;
   cursor: default;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    background-color: #3E5899;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #EBA783;
+}
+
+.contact-container {
+    border-radius: 5px;
+    background-color: #FFF8DF;
+    padding: 20px;
 }
